@@ -1,3 +1,39 @@
 $ git config --global user.name "mutalip"
 $ git config --global user.email  mutalip.kurban@gmail.com
 $ git clone https://github.com/mutalip/Git-and-GitHub
+
+$ git add Test.txt
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Test.txt
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git commit -m "first commit" Test.txt
+[master 89bce53] first commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 Test.txt
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 377 bytes | 377.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mutalip/Git-and-GitHub
+   527045f..89bce53  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+
+
+
+
