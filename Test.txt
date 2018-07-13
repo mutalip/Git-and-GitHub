@@ -32,7 +32,26 @@ To https://github.com/mutalip/Git-and-GitHub
    527045f..89bce53  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git log
+commit e8f7749b2ba346a10fd430bd7cd39752f2d2fc15 (HEAD -> master, origin/master,
+origin/HEAD)
+Author: mutalip <mutalip.kurban@gmail.com>
+Date:   Fri Jul 13 11:23:09 2018 -0700
 
+    Second commit
+
+commit 89bce539a28bac4bf71d434bee46c11ccb58223b
+Author: mutalip <mutalip.kurban@gmail.com>
+Date:   Fri Jul 13 11:19:55 2018 -0700
+
+    first commit
+
+commit 527045f6b323cb0a4686da22bd431beb3c8f6bcd
+Author: Mutalip Kurban <mutalip.kurban@gmail.com>
+Date:   Thu Jul 12 09:55:30 2018 -0700
+
+    Initial commit
 
 
 
