@@ -1,0 +1,17 @@
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git branch first branch
+fatal: Not a valid object name: 'branch'.
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git branch firstbranch
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git checkout
+Your branch is up to date with 'origin/master'.
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+mkurban@PC898 MINGW64 /c/git/Git-and-GitHub (firstbranch)
+$
