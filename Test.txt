@@ -1,0 +1,3 @@
+$ git config --global user.name "mutalip"
+$ git config --global user.email  mutalip.kurban@gmail.com
+$ git clone https://github.com/mutalip/Git-and-GitHub
